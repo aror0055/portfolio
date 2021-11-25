@@ -136,12 +136,13 @@ table {
 
 /* ========================================= Global CSS ====================================== */
 
-/* 
-HOMEPAGE STYLES: This block of css code contains the styles exclusively to the homepage.html webpage.
-*/
 .logo{
     width: 20vw;
 }
+
+/* 
+HOMEPAGE STYLES: This block of css code contains the styles exclusively to the homepage.html webpage.
+*/
 
 /* 
 WORK PAGE STYLES: This block of css code contains the styles exclusively to the work.html webpage.
