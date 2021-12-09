@@ -18,7 +18,6 @@
 </head>
 
 <body class="bg-light container-md ">
-
     <!-- *** Navbar *** -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -36,7 +35,7 @@
                         <a class="nav-link" href="work.html">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="contact.html">Contact</a>
@@ -46,36 +45,62 @@
         </div>
     </nav>
 
-    <section class="container-fluid">
+    <section class="container-fluid mt-5">
         <h2 class="display-4 fw-bold text-center mt-5">
             CONTACT US
         </h2>
 
         <form>
-            <div class=" mt-5 mb-3">
-                <label for="fullname" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="fullname" aria-describedby="fullname" required>
-                <div id="fullname" class="form-text">Please enter a your full name here.</div>
+            <div class="row mt-5 mb-3">
+                <label for="fullname" class="col-sm-2 col-form-label">Full Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="fullname" aria-describedby="fullname" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="email" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" aria-describedby="email">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="telephone" class="col-sm-2 col-form-label">Contact</label>
+                <div class="col-sm-10">
+                    <input type="tel" class="form-control" id="telephone" aria-describedby="telephoneNumber">
+                </div>
             </div>
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" required>
-                <div id="email" class="form-text">Please enter a valid email here.</div>
+                <label for="comment" class="comment-label form-label">Comment</label>
+                <textarea class="form-control" id="comment" rows="16" aria-describedby="comment"></textarea>
             </div>
-            <div class="mb-3">
-                <label for="telephone" class="form-label">Contact</label>
-                <input type="tel" class="form-control" id="telephone" aria-describedby="telephoneNumber">
-                <div id="contact" class="form-text">Please enter a valid phone number here.</div>
-            </div>
-            <div class="mb-3">
-                <label for="comment" class="form-label">Comment</label>
-                <textarea class="form-control" id="comment" rows="6" aria-describedby="comment"></textarea>
-                <div id="contact" class="form-text">Please add your comment here.</div>
-              </div>
-            <button type="submit" class="btn btn-danger border-0 rounded-50 p-1 px-4 fs-4">Submit</button>
+            <button type="submit" class="btn btn-danger border-0 rounded-50 p-1 px-4 fs-4"
+                style="text-align: end; float: right;">Submit</button>
         </form>
     </section>
 
+    <section class="container-fluid py-5 mt-5">
+        <h2 class="display-4 fw-bold text-center mt-5">
+            OUR LOCATION
+        </h2>
+        <div class="justify-content-center my-5" style="text-align: center;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d89726.07427812513!2d-75.82497768809638!3d45.350027040706294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus%2C%201385%20Woodroffe%20Ave%2C%20Nepean%2C%20ON%20K2G%201V8!3m2!1d45.349927799999996!2d-75.7549368!5e0!3m2!1sen!2sca!4v1639062150220!5m2!1sen!2sca"
+                width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section class="container-fluid py-5">
+        <h2 class="display-4 fw-bold text-center mt-5">
+            BUSINESS HOURS
+        </h2>
+
+        <p class="my-5" style="text-align: center; font-size: x-large;">
+            MONDAY - FRIDAY:<br>
+            09:00AM - 05:00PM<br>
+            SATURDAY: 10:00AM - 03:00PM<br>
+            SUNDAY: CLOSED<br>
+        </p>
+    </section>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"

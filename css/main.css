@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Montserrat:wght@300&family=Open+Sans+Condensed:wght@300&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -137,11 +139,16 @@ table {
 /* ========================================= Global CSS ====================================== */
 
 html {
-    font-family: 'Bree Serif', serif;
-    font-family: 'Open Sans Condensed', sans-serif;
+    
 }
 
 body {
+    font-family: 'David Libre', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    font-weight: bolder;
+
     max-width: 80vw;
 }
 
@@ -149,6 +156,9 @@ body {
     width: 10vw;
 }
 
+.nav-item{
+    font-size: x-large;
+}
 
 /* 
 HOMEPAGE STYLES: This block of css code contains the styles exclusively to the homepage.html webpage.
@@ -157,8 +167,6 @@ HOMEPAGE STYLES: This block of css code contains the styles exclusively to the h
 /* 
 WORK PAGE STYLES: This block of css code contains the styles exclusively to the work.html webpage.
 */
-
-
 
 /* 
 WORK1 PAGE STYLES: This block of css code contains the styles exclusively to the work1.html webpage.
@@ -187,7 +195,19 @@ ABOUT PAGE STYLES: This block of css code contains the styles exclusively to the
 CONTACT US STYLES: This block of css code contains the styles exclusively to the contact.html webpage.
 */
 
+form{
+    font-size: x-large;
+}
 
+form label{
+    color: white;
+    background-color: #DC3545;
+}
+
+.comment-label{
+    padding: 1vw;
+    padding-right: 4vw;
+}
 /* 
 MENU PAGE STYLES: This block of css code contains the styles exclusively to the menu.html webpage.
 */
