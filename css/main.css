@@ -156,6 +156,16 @@ body {
     font-size: x-large;
 }
 
+footer{
+    text-align: right;
+}
+
+svg{
+    margin: 2vw;
+    height: 3vw;
+    width: 3vw;
+}
+
 /* 
 HOMEPAGE STYLES: This block of css code contains the styles exclusively to the homepage.html webpage.
 */
