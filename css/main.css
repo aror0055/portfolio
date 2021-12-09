@@ -136,12 +136,17 @@ table {
 
 /* ========================================= Global CSS ====================================== */
 
-body{
+html {
+    font-family: 'Bree Serif', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
     max-width: 80vw;
 }
 
-.logo{
-    width: 20vw;
+.logo {
+    width: 10vw;
 }
 
 /* 
