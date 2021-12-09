@@ -17,7 +17,7 @@
     <title>Contact &VerticalLine; PKAP</title>
 </head>
 
-<body class="bg-light container-md">
+<body class="bg-light container-md ">
 
     <!-- *** Navbar *** -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
@@ -25,7 +25,7 @@
             <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.png" alt="Website Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <img class="logo" src="images/logo.png" alt="Website Logo">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
@@ -46,8 +46,34 @@
         </div>
     </nav>
 
-    <section class="container-xl">
+    <section class="container-fluid">
+        <h2 class="display-4 fw-bold text-center mt-5">
+            CONTACT US
+        </h2>
 
+        <form>
+            <div class=" mt-5 mb-3">
+                <label for="fullname" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullname" aria-describedby="fullname" required>
+                <div id="fullname" class="form-text">Please enter a your full name here.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" required>
+                <div id="email" class="form-text">Please enter a valid email here.</div>
+            </div>
+            <div class="mb-3">
+                <label for="telephone" class="form-label">Contact</label>
+                <input type="tel" class="form-control" id="telephone" aria-describedby="telephoneNumber">
+                <div id="contact" class="form-text">Please enter a valid phone number here.</div>
+            </div>
+            <div class="mb-3">
+                <label for="comment" class="form-label">Comment</label>
+                <textarea class="form-control" id="comment" rows="6" aria-describedby="comment"></textarea>
+                <div id="contact" class="form-text">Please add your comment here.</div>
+              </div>
+            <button type="submit" class="btn btn-danger border-0 rounded-50 p-1 px-4 fs-4">Submit</button>
+        </form>
     </section>
 
 </body>
