@@ -160,10 +160,67 @@ footer{
     text-align: right;
 }
 
-svg{
-    margin: 2vw;
-    height: 3vw;
-    width: 3vw;
+/* Extra small devices (phones, 400px and down) */
+@media only screen and (max-width: 400px) {
+    svg{
+        margin: 10vw;
+        height: 25vw;
+        width: 25vw;
+    }
+}
+
+/* Smaller devices (mini tablets, 400px and up) */
+@media only screen and (min-width: 400px) {
+    svg{
+        margin: 5vw;
+        height: 10vw;
+        width: 10vw;
+    }
+}
+
+/* Small devices (tablets, 600px and up) */
+@media only screen and (min-width: 600px) {
+    svg{
+        margin: 2.5vw;
+        height: 5.5vw;
+        width: 5.5vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    svg{
+        margin: 2.5vw;
+        height: 5vw;
+        width: 5vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    svg{
+        margin: 2vw;
+        height: 4vw;
+        width: 4vw;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    svg{
+        margin: 1.5vw;
+        height: 3vw;
+        width: 3vw;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1800px) {
+    svg{
+        margin: 1vw;
+        height: 2vw;
+        width: 2vw;
+    }
 }
 
 .bi-youtube{
@@ -226,6 +283,37 @@ form label{
 .comment-label{
     padding: 1vw;
     padding-right: 4vw;
+}
+
+/* iframe{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    height: 40vw;
+    width: 80vw;
+} */
+
+
+/* Small - Large devices (small phones to laptops, 1600px and down) */
+@media only screen and (max-width: 1600px) {
+    iframe{
+        text-align: center;
+        margin: auto;
+        padding: auto;
+        height: 40vw;
+        width: 80vw;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1600px and up) */
+@media only screen and (min-width: 1600px) {
+    iframe{
+        text-align: center;
+        margin: auto;
+        padding: auto;
+        height: 25vw;
+        width: 50vw;
+    }
 }
 /* 
 MENU PAGE STYLES: This block of css code contains the styles exclusively to the menu.html webpage.
