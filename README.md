@@ -44,4 +44,5 @@ Reference: https://getbootstrap.com/docs/5.1/
 Reference: https://fonts.googleapis.com/css2?family=David+Libre&family=Montserrat:wght@300&family=Open+Sans+Condensed:wght@300&display=swap 
 
 ### The whole project has been developed in Visual Studio Code IDE.
+Reference: https://code.visualstudio.com/
 ---
