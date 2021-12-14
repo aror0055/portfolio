@@ -40,6 +40,9 @@ random-1.jpg, random-2.jpg, random-3.jpg, random-4.jpg, random-5.jpg, random-6.j
 ### This portfolio was mainly designed using HTML, CSS and Bootstrap (CSS Framework, mobile first)
 Reference: https://getbootstrap.com/docs/5.1/
 
+### Icons used in the footer section were taken from https://getbootstrap.com/
+Reference: https://icons.getbootstrap.com/
+
 ### Font used in this porject was imported from https://fonts.google.com/
 Reference: https://fonts.googleapis.com/css2?family=David+Libre&family=Montserrat:wght@300&family=Open+Sans+Condensed:wght@300&display=swap 
 
