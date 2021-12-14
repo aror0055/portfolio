@@ -29,35 +29,10 @@ logo.png
 banner-img.png
 
 **portrait-images>**
-portrait-1.jpg
-portrait-2.jpg
-portrait-3.jpg
-portrait-4.jpg
-portrait-5.jpg
-portrait-6.jpg
-portrait-7.jpg
-portrait-8.jpg
-portrait-9.jpg
+portrait-1.jpg, portrait-2.jpg, portrait-3.jpg, portrait-4.jpg, portrait-5.jpg, portrait-6.jpg, portrait-7.jpg, portrait-8.jpg and portrait-9.jpg
 
 **product-images>**
-product-1.jpg
-product-2.jpg
-product-3.jpg
-product-4.jpg
-product-5.jpg
-product-6.jpg
-product-7.jpg
-product-8.jpg
+product-1.jpg, product-2.jpg, product-3.jpg, product-4.jpg, product-5.jpg, product-6.jpg, product-7.jpg and product-8.jpg
 
 **random-photography>**
-random-1.jpg
-random-2.jpg
-random-3.jpg
-random-4.jpg
-random-5.jpg
-random-6.jpg
-random-7.jpg
-random-8.jpg
-random-9.jpg
-random-10.jpg
-random-11.jpg
+random-1.jpg, random-2.jpg, random-3.jpg, random-4.jpg, random-5.jpg, random-6.jpg, random-7.jpg, random-8.jpg, random-9.jpg, random-10.jpg and random-11.jpg
