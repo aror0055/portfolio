@@ -12,14 +12,14 @@ Reference: https://fonts.googleapis.com/css2?family=David+Libre&family=Montserra
 
 ## Files included:
 
-### HTML: 
-index.html
-work.html
-work1.html
-work2.html
-work3.html
-blog.html
-contact.html
+### > HTML: 
+>> index.html
+>> work.html
+>> work1.html
+>> work2.html
+>> work3.html
+>> blog.html
+>> contact.html
 
 ### CSS:
 main.css
